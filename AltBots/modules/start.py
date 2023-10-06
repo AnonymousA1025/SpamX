@@ -8,8 +8,9 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ZenBotX"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/QuirkySquads"
+        ),
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/ItZxSTaR/XBOTS")
@@ -33,14 +34,14 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐀xᴇɴ](https://t.me/PyXen)**\n\n"
-        TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
+        TEXT = f"**ʜᴇʟʟᴏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nᴛʜɪs ɪs [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴢᴇɴ](https://t.me/NoobZen)**\n\n"
+        TEXT += f"» **ᴛʜᴜɴᴅᴇʀx ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+                    "https://te.legra.ph/file/0651204bbadbc8d23fae3.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
