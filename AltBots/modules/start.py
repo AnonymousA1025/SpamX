@@ -13,7 +13,7 @@ START_BUTTON = [
         ),
     ],
     [
-        Button.url("• ᴄʀᴇᴅɪᴛs •", callback_data="xd")
+        Button.url("• ᴄʀᴇᴅɪᴛs •", text="xd")
     ]
 ]
 
