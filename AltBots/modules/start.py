@@ -1,7 +1,7 @@
 from telethon import __version__, events, Button
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
-
+xd = "[Zen BotX](https://t.me/ZenBotX)\n[BONTEN](https://t.me/Bonten_destroyers)"
 
 START_BUTTON = [
     [
@@ -13,7 +13,7 @@ START_BUTTON = [
         ),
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ItZxSTaR/XBOTS")
+        Button.url("• ᴄʀᴇᴅɪᴛs •", data="xd")
     ]
 ]
 
