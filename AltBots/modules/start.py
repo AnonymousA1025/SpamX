@@ -13,7 +13,7 @@ START_BUTTON = [
         ),
     ],
     [
-        Button.url("• ᴄʀᴇᴅɪᴛs •", text="xd")
+        Button.url(" ʙᴏɴᴛᴇɴ ᴅᴇsᴛʀᴏʏᴇʀs", "https://t.me/Bonten_Destroyers")
     ]
 ]
 
