@@ -35,10 +35,10 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʟʟᴏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nᴛʜɪs ɪs [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴢᴇɴ](https://t.me/NoobZen)**\n\n"
-        TEXT += f"» **ᴛʜᴜɴᴅᴇʀx ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
-        TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
-        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT += f"✗ **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴢᴇɴ](https://t.me/NoobZen)**\n\n"
+        TEXT += f"✗ **ᴀ ᴘᴏᴡᴇʀғᴜʟʟ sᴘᴀᴍ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇʀs ʟɪᴋᴇ sᴘᴀᴍ,ᴘ*ʀᴍsᴘᴀᴍ,ʀᴀɪᴅ,ʀᴇᴘʟʏ ʀᴀɪᴅ,ʟᴏᴠᴇ ʀᴀɪᴅ, sʜᴀʏᴀʀɪ ʀᴀɪᴅ.**\n"
+#        TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
+        TEXT +="`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
                     "https://te.legra.ph/file/0651204bbadbc8d23fae3.jpg",
